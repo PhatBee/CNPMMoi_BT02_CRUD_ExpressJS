@@ -1,6 +1,8 @@
 import { Sequelize } from 'sequelize';
+const env = process.env.NODE_ENV || 'development';
+const config = require(__dirname + '/../config/config.json')[env];
 
-const sequelize = new Sequelize('node_fulltask', 'root', '1234567@a$', {
+const sequelize = new Sequelize(config.database, config.username, config.password, {
   host: '127.0.0.1',
   dialect: 'mysql',
   logging: false
