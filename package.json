@@ -2,7 +2,7 @@
   "name": "baitap2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "bignumber.js": "^9.0.0",
     "body-parser": "^2.2.0",
@@ -23,7 +23,6 @@
     "sequelize": "^6.37.7",
     "mysql2": "^3.14.3"
   },
-
   "devDependencies": {
     "@babel/core": "^7.28.3",
     "@babel/node": "^7.28.0",
@@ -34,6 +33,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Ong Vinh Phat",
   "license": "ISC"
 }
